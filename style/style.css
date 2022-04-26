@@ -1,14 +1,14 @@
-.text-center{
+.center{
   color: black;
 }
-.team-heading{
+.heading{
   background-color: aquamarine;
 }
 
-.card-header{
+.header{
   background-color: lavender;
 }
 
-.card-title{
+.title{
   color: black;
 }
