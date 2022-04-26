@@ -14,7 +14,7 @@ const render = require("./lib/htmlRenderer")
 
 let employeeSystem = []
 
-
+//outputs the built team to output file
 const builtTeam = () => {
   let newTeamHTML = render(employeeSystem)
 
@@ -27,6 +27,7 @@ const builtTeam = () => {
     })
 }
 
+//lets you add more members
 const addMoreMembers = () => {
   inquirer.prompt([
     {
@@ -46,6 +47,7 @@ const addMoreMembers = () => {
   })
 }
 
+//lets you add either and engineer or intern as well as their info
 const newEmployee = () => {
   inquirer.prompt([{
     type: 'list',
@@ -114,6 +116,7 @@ const newEmployee = () => {
     })
 }
 
+//adding the information of the manager
 inquirer.prompt([
   {
     type: 'input',
